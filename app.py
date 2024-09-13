@@ -9,7 +9,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Load the model
-model_path = '/Users/KIIT/Documents/skin_class/ENB1_8Class30.h5'  # Update with your model path
+model_path = 'ENB1_8Class30.h5'  # Update with your model path
 model = Model(model_path)
 
 @app.route('/')
